@@ -23,6 +23,10 @@ print(X.shape)  # (1000, 10) // 1000 samples, 10 features
 print(y.shape)  # (1000,) // 1000 target values
 
 '''
+[n1, ..., n10] là [y_target ]
+'''
+
+'''
 20% dữ liệu là tập validation
 '''
 
@@ -65,3 +69,6 @@ plt.plot([min(y), max(y)], [min(y), max(y)], color="red", linewidth=2)
 plt.xlabel("True values")
 plt.ylabel("Predicted train values with Momentum")
 plt.savefig("train_predictions_momentum.png")
+
+y_pred_val = model.predict(X_val)
+print("MSE on validation set:", mse(y_val, y_pred_val))

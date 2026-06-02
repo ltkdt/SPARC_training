@@ -136,5 +136,7 @@ class LinearRegressionWithMomentum:
     def predict(self, X):
         return np.dot(X, self.weights) + self.bias
     
+
+
 # https://viblo.asia/p/optimizer-hieu-sau-ve-cac-thuat-toan-toi-uu-gdsgdadam-Qbq5QQ9E5D8
 # https://towardsdatascience.com/understanding-deep-learning-optimizers-momentum-adagrad-rmsprop-adam-e311e377e9c2/

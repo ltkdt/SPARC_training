@@ -4,7 +4,6 @@ Mỗi instance của class Scalar đại diện cho một giá trị số học 
 
 Khi thực hiện các phép toán giữa các instance của Scalar, một DAG (Directed Acyclic Graph) được xây dựng để theo dõi các phép toán đã thực hiện và mối quan hệ giữa chúng.
 Một đồ thị có hướng được gọi là một DAG khi và chỉ khi đồ thị tồn tại thứ tự tô pô.
-
 '''
 
 

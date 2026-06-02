@@ -21,6 +21,11 @@ def softmax_stable(Z):
 
 def one_hot_encode(y, num_classes):
     """
+    3 lớp: 0, 1, 2
+    0 -> [1, 0, 0]
+    1 -> [0, 1, 0]
+    2 -> [0, 0, 1]
+
     Hàm one-hot encoding chuyển đổi một vector y chứa các nhãn lớp thành một ma trận one-hot encoding Y_one_hot, trong đó mỗi hàng tương ứng với một mẫu và mỗi cột tương ứng với một lớp. 
     Nếu mẫu thuộc lớp k, thì phần tử tại hàng đó và cột k sẽ có giá trị 1, ngược lại sẽ có giá trị 0.
     """
